@@ -1,0 +1,73 @@
+/* src\components\FormularioCadastro\styles.css */
+
+.container {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+  
+.container img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+  
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #284ea7;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+  
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+input {
+    border: 1px solid #ccc;
+}
+  
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #28a745; 
+    margin-top: 10px;
+    transition: 0.3s;
+}
+  
+button:hover {
+    background-color: #218838;
+}
+  
+.link-jogadores {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 14px;
+}
+  
+.link-jogadores:hover {
+    text-decoration: none;
+}
+
