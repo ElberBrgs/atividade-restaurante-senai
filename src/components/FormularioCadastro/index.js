@@ -9,12 +9,12 @@ import logo from '../../assets/images/logo.png'
 import axios from 'axios'
 
 function FormularioCadastro() {
-    const [nomeprato, setNomePrato] = useState('')
-    const [descricao, setDescricao] = useState('')
-    const [preco,setPreco] = useState('')
+    const [nomeDoPrato, setNomeDoPrato] = useState('')
+    const [descricaoDoPrato, setDescricaoDoPrato] = useState('')
+    const [precoDoPrato,setPrecoDoPrato] = useState('')
     const [categoria, setCategoria] = useState('')
     const [disponibilidade, setDisponibilidade] = useState('')
-    const [urlimagem, setUrlImagem] = useState('')
+    const [urlImagem, setUrlImagem] = useState('')
 
     const navigate = useNavigate()
     const { exibirMensagem , mensagem, tipoMensagem, visivel, fecharMensagem } = useMensagem()
@@ -22,11 +22,11 @@ function FormularioCadastro() {
     const cadastrarPrato = async () => {
         try {
             const response = await axios.post('http://localhost:8080/pratos', {
-                nomeprato, descricao, preco, categoria, disponibilidade, urlimagem,})
+                nomeDoPrato, descricaoDoPrato, precoDoPrato, categoria, disponibilidade, urlImagem,})
             exibirMensagem(response.data.mensagem || 'prato cadastrado com sucesso!', 'sucesso')
-            setNomePrato('')
-            setDescricao('')
-            setPreco('')
+            setNomeDoPrato('')
+            setDescricaoDoPrato('')
+            setPrecoDoPrato('')
             setCategoria('')
             setDisponibilidade('')
             setUrlImagem('')
@@ -52,24 +52,24 @@ function FormularioCadastro() {
                     type="text"
                     id="nomeprato"
                     placeholder="Nome do prato"
-                    value={nomeprato}
-                    onChange={(e) => setNomePrato(e.target.value)}
+                    value={nomeDoPrato}
+                    onChange={(e) => setNomeDoPrato(e.target.value)}
                     required
                 />
                 <input 
                     type="text"
                     id="descricao"
                     placeholder="Descrição do prato"
-                    value={descricao}
-                    onChange={(e) => setDescricao(e.target.value)}
+                    value={descricaoDoPrato}
+                    onChange={(e) => setDescricaoDoPrato(e.target.value)}
                     required
                 />
                 <input 
                     type="text"
                     id="preco"
                     placeholder="Preço"
-                    value={preco}
-                    onChange={(e) => setPreco(e.target.value)}
+                    value={precoDoPrato}
+                    onChange={(e) => setPrecoDoPrato(e.target.value)}
                     required
                 />
                <select
@@ -98,7 +98,7 @@ function FormularioCadastro() {
                     type="text"
                     id="urlimagem"
                     placeholder="Url_Imagem"
-                    value={urlimagem}
+                    value={urlImagem}
                     onChange={(e) => setUrlImagem(e.target.value)}
                     required
                 />
