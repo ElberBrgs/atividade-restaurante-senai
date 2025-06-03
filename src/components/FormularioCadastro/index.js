@@ -72,22 +72,28 @@ function FormularioCadastro() {
                     onChange={(e) => setPreco(e.target.value)}
                     required
                 />
-                <input 
-                    type="text"
+               <select
                     id="categoria"
-                    placeholder="Categoria"
                     value={categoria}
                     onChange={(e) => setCategoria(e.target.value)}
                     required
-                />
-                <input 
-                    type="text"
+            >
+                <option value="" disabled>Categoria</option>
+                <option value="ENTRADA">Entrada</option>
+                <option value="PRATO_PRINCIPAL">Prato principal</option>
+                <option value="SOBREMES">Sobremesa</option>
+                <option value="BEBIDA">Bebida</option>
+            </select>
+            <select
                     id="disponibilidade"
-                    placeholder="Disponibilidade"
                     value={disponibilidade}
                     onChange={(e) => setDisponibilidade(e.target.value)}
                     required
-                />
+            >
+                <option value="" disabled>Disponibilidade</option>
+                <option value="DISPONIVEL">Disponível</option>
+                <option value="INDISPONIVEL">Indisponível</option>
+            </select>
                 <input 
                     type="text"
                     id="urlimagem"
