@@ -11,8 +11,8 @@ function Home (){
         <div className="container">
             <img src={logo} alt="Logo da empresa" />
             <h2>Cardápio</h2>
-            <button onClick={() => navigate('/jogadores')} className='link-jogadores'>Ver cardápio</button>
-            <button onClick={() => navigate('/cadastro')} className='link-cadastro'>Cadastra pratos </button>
+            <button onClick={() => navigate('/pratos')} className='link-pratos'>Ver cardápio</button>
+            <button onClick={() => navigate('/cadastro')} className='link-cadastro'>Cadastrar pratos </button>
         </div>
     )
 }

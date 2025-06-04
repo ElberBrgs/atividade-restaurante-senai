@@ -46,30 +46,6 @@ input {
     border: 1px solid #ccc;
 }
   
-button {
-    background-color: #28a745;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    border: 2px solid #28a745; 
-    margin-top: 10px;
-    transition: 0.3s;
-}
-  
-button:hover {
-    background-color: #218838;
-}
-  
-.link-jogadores {
-    margin-top: 25px;
-    text-decoration: none;
-    color: #f4f4f4;
-    font-size: 14px;
-}
-  
-.link-jogadores:hover {
-    text-decoration: none;
-}
 
 select {
     width: 100%;

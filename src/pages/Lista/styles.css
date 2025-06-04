@@ -1,7 +1,7 @@
 /* src\pages\Lista\styles.css */
 
 
-.pagina-lista-jogadores {
+.pagina-lista-pratos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     background-color: #f4f4f4; 
 }
   
-.pagina-lista-jogadores .container {
+.pagina-lista-pratos .container {
     background-color: white;
     padding: 32px;
     box-sizing: border-box;
@@ -23,22 +23,9 @@
     border-radius: 8px;
 }
   
-.pagina-lista-jogadores .container h2 {
+.pagina-lista-pratos .container h2 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 35px;
     color: #284ea7;
-}
-  
-.pagina-lista-jogadores .container .link-voltar {
-    display: block;
-    margin-top: 20px;
-    font-size: 16px;
-    text-align: center;
-    color: #f4f4f4; 
-    text-decoration: none;
-}
-  
-.pagina-lista-jogadores .container .link-voltar:hover {
-    text-decoration: none;
 }
