@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8c182293;
+    background: linear-gradient(to bottom,#8C1822 ,#590202 ,#400101 );
 }
   
 h1, h2, h3, h4, h5, h6 {
