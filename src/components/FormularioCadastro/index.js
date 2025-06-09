@@ -90,7 +90,7 @@ function FormularioCadastro() {
                     <option value="" disabled>Categoria</option>
                     <option value="ENTRADA">Entrada</option>
                     <option value="PRATO_PRINCIPAL">Prato principal</option>
-                    <option value="SOBREMES">Sobremesa</option>
+                    <option value="SOBREMESA">Sobremesa</option>
                     <option value="BEBIDA">Bebida</option>
                 </select>
                 <select
