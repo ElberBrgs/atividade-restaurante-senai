@@ -20,7 +20,7 @@ function FormularioCadastro() {
 
     const cadastrarPrato = async () => {
         try {
-            const response = await axios.post('http://localhost:8080/pratos', {
+            const response = await axios.post('https://atividade-restaurante-senai.onrender.com/pratos', {
                 nomeDoPrato,
                 descricaoDoPrato,
                 precoDoPrato,

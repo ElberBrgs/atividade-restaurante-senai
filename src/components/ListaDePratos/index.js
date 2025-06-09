@@ -8,7 +8,7 @@ function ListaDePratos() {
   useEffect(() => {
     const carregarPratos = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/pratos');
+        const response = await axios.get('https://atividade-restaurante-senai.onrender.com/pratos');
         setPrato(response.data);
       } catch (error) {
         alert('Erro ao buscar prato: ' + error.message);
