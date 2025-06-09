@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom,#8C1822 ,#59020285 ,#40010165 );
+    background: linear-gradient(to top,#8C1822 ,#59020285 ,#40010165 );
 }
   
 h1, h2, h3, h4, h5, h6 {
