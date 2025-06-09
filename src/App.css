@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 a {
-    color: #003180;
+    color: #F2F2F2;
     text-decoration: none;
 }
   
@@ -64,15 +64,15 @@ ul {
 }
 
 button {
-    background-color:#D81000;
+    background-color:#8C1822;
     color: white;
     cursor: pointer;
     font-weight: bold;
-    border: 2px solid#D81000; 
+    border: 2px solid#8C1822; 
     margin-top: 10px;
     transition: 0.3s;
 }
   
 button:hover {
-    background-color: #003180;
+    background-color: #590202;
 }
