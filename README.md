@@ -15,3 +15,10 @@ Este projeto visa gerenciar informações de um restaurante, permitindo o cadast
     * Disponibilidade (Ex: Em estoque, Esgotado)
     * URL da Imagem do Prato: Um campo para inserir o link de uma imagem do prato.
 * **Tela de Cardápio (Listagem de Pratos):** Apresenta todos os pratos cadastrados de forma visualmente organizada, exibindo a imagem, nome e preço.
+
+### QR Code :
+<div>
+  <a href ="https://atividade-restaurante-senai-frontend.onrender.com">
+    <img height = 400 width = 400 src = "atividade-restaurante.png">
+  </a>
+</div>
